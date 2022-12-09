@@ -1,6 +1,6 @@
-local status_ok, gs= pcall(require, "gitsigns")
+local status_ok, gs = pcall(require, "gitsigns")
 if not status_ok then
-  return
+    return
 end
 
 gs.setup {
