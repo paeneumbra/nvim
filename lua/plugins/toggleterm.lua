@@ -4,7 +4,9 @@ if not status_ok then
 end
 
 toggleterm.setup({
-    open_mapping = [[<leader>t]],
+    -- Open mapping will conflicts when in insert mode
+    -- Preferred way is to use it via which-key!
+    --open_mapping = [[<leader>t]],
     shade_terminals = true,
     shading_factor = 2,
     start_in_insert = true,

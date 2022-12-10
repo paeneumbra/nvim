@@ -21,12 +21,12 @@ dashboard.section.buttons.val = {
 	dashboard.button("n", " " .. " New file", ":ene <BAR> startinsert <CR>"),
 	dashboard.button("p", " " .. " Find project", ":lua require('telescope').extensions.projects.projects()<CR>"),
 	dashboard.button("r", " " .. " Recent files", ":Telescope oldfiles <CR>"),
-	dashboard.button("g", " " .. " Grep text", ":Telescope live_grep <CR>"),
-	dashboard.button("c", " " .. " Config", ":e $MYVIMRC <CR>"),
+	dashboard.button("g", " " .. " Grep text", ":Telescope live_grep <CR>"),
+	dashboard.button("c", " " .. " Config", ":e $XDG_CONFIG_HOME/nvim <CR>"),
 	dashboard.button("q", " " .. " Quit", ":qa<CR>"),
 }
 local function footer()
-	return "github.com/simao-ferreira"
+	return "Functions can be accessed by pressing <SPACE>"
 end
 
 dashboard.section.footer.val = footer()

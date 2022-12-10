@@ -63,6 +63,7 @@ return packer.startup(function(use)
     use 'kyazdani42/nvim-tree.lua' -- sideload tree
     use 'akinsho/bufferline.nvim'
     use 'nvim-lualine/lualine.nvim'
+    use 'folke/which-key.nvim'
 
     -- CODE
     -- lsp, completion, formatter, linter, highlight
