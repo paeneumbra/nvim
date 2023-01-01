@@ -52,6 +52,7 @@ return packer.startup(function(use)
     use 'rafamadriz/friendly-snippets'
 
     use { 'ellisonleao/gruvbox.nvim', requires = { 'rktjmp/lush.nvim' } }
+    use 'folke/tokyonight.nvim'
     use { 'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' } }
 
     -- FUNCTION
