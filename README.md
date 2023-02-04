@@ -35,8 +35,11 @@ Before initializing neovim open the bootstrap configuration and save.
 $ cd $HOME/.config/nvim/lua/bootstrap.lua
 ```
 
-This will trigger the download and installation of all the plugins used.
+It will trigger the download of configured missing language packs - PT and DE.
+
+After it will trigger the download and installation of all the plugins used.
 It might fail at first for some packages, saving again should fix it.
+If it does not do the next step and save after it is successful.
 
 This will also trigger installation of the Language Server Protocols (LSP).
 In case of some failure type inside neovim and validate outcome:
@@ -44,8 +47,6 @@ In case of some failure type inside neovim and validate outcome:
 ```
 $ :LspInstall {{server}}
 ```
-
-It will also trigger the download of missing language packs - PT and DE.
 
 ## Issues
 
