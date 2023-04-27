@@ -10,9 +10,9 @@ return {
 					[vim.fn.stdpath("config") .. "/lua"] = true,
 				},
 			},
-            telemetry = {
-                enable = false,
-            },
+			telemetry = {
+				enable = false,
+			},
 		},
 	},
 }
