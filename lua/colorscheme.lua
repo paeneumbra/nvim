@@ -1,13 +1,14 @@
+-- local colorscheme = "terafox"
+-- local colorscheme = "github_dark_high_contrast"
 local colorscheme = "gruvbox"
--- local colorscheme = "tokyonight-night"
 
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
 if not status_ok then
-    return
+	return
 end
 
 vim.o.termguicolors = true
-vim.o.background = 'dark'
+vim.o.background = "dark"
 vim.cmd([[
     hi Normal ctermbg=NONE guibg=NONE'
 ]])

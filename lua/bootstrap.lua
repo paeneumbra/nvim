@@ -51,7 +51,6 @@ return packer.startup(function(use)
 	use("L3MON4D3/LuaSnip")
 	use("rafamadriz/friendly-snippets")
 
-	use({ "ellisonleao/gruvbox.nvim", requires = { "rktjmp/lush.nvim" } })
 	use({ "lewis6991/gitsigns.nvim", requires = { "nvim-lua/plenary.nvim" } })
 
 	-- FUNCTION
@@ -86,6 +85,11 @@ return packer.startup(function(use)
 	use("p00f/nvim-ts-rainbow")
 	use("windwp/nvim-autopairs")
 	use("numToStr/Comment.nvim")
+
+	-- Color
+	use({ "ellisonleao/gruvbox.nvim", requires = { "rktjmp/lush.nvim" } })
+	use("projekt0n/github-nvim-theme")
+	use("EdenEast/nightfox.nvim")
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
