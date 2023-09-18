@@ -5,15 +5,16 @@
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
 return {
-    -- add telescope-fzf-native
+
+    -- add any tools you want to have installed below
     {
-        "telescope.nvim",
-        dependencies = {
-            "nvim-telescope/telescope-fzf-native.nvim",
-            build = "make",
-            config = function()
-                require("telescope").load_extension "fzf"
-            end,
+        "williamboman/mason.nvim",
+        opts = {
+            ensure_installed = {
+                "stylua",
+                "shellcheck",
+                "flake8",
+            },
         },
     },
 }

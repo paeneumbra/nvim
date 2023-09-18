@@ -5,15 +5,17 @@
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
 return {
-    -- add telescope-fzf-native
+    -- add gruvbox
+    { "ellisonleao/gruvbox.nvim" },
+
+    -- Configure LazyVim to load gruvbox
     {
-        "telescope.nvim",
-        dependencies = {
-            "nvim-telescope/telescope-fzf-native.nvim",
-            build = "make",
-            config = function()
-                require("telescope").load_extension "fzf"
-            end,
+        "LazyVim/LazyVim",
+        opts = {
+            colorscheme = "gruvbox",
+            opts = {
+                transparent_background = true,
+            },
         },
     },
 }
