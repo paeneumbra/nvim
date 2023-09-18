@@ -1,9 +1,13 @@
-require 'bootstrap'
-require 'colorscheme'
-require 'keymaps'
-require 'settings'
-require 'spell'
+require "bootstrap"
+require "colorscheme"
+require "keymaps"
 
-require 'plugins'
-require 'lsp'
+require "utils"
+require "icons"
 
+local settings = require "settings"
+settings.load_defaults()
+
+require "spell"
+require "plugins"
+require "lsp"

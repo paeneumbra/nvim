@@ -2,6 +2,8 @@
 
 'cause I had nothing better to do...
 
+- **WARN:** Repo update underway, this readme is outdated
+
 ## Requirements
 
 - Ensure version of installed neovim is at least `0.8.0`
