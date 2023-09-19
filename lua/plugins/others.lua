@@ -11,4 +11,16 @@ return {
         -- opts will be merged with the parent spec
         opts = { use_diagnostic_signs = true },
     },
+    {
+        "nvim-neo-tree/neo-tree.nvim",
+        opts = {
+            filesystem = {
+                filtered_items = {
+                    visible = true,
+                    hide_dotfiles = false,
+                    hide_gitignored = false,
+                },
+            },
+        },
+    },
 }
