@@ -6,8 +6,7 @@
 -- * override the configuration of LazyVim plugins
 return {
 
-    {
-        "catppuccin",
-        enabled = false,
-    },
+    { "catppuccin", enabled = false },
+    { "ggandor/flit.nvim", enabled = false },
+    { "echasnovski/mini.indentscope", enabled = false },
 }

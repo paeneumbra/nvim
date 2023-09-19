@@ -33,6 +33,7 @@ return {
                 "flake8",
                 "pyright",
                 "shellcheck",
+                "shfmt",
                 "stylua",
                 "yaml-language-server",
             },
