@@ -2,12 +2,13 @@
 
 'cause I had nothing better to do...
 
-- **WARN:** Repo update underway, this readme is outdated
+Installation of my version of [lazyvim](https://www.lazyvim.org/).
+
+This repository overrides LazyVim default configurations.
 
 ## Requirements
 
 - Ensure version of installed neovim is at least `0.8.0`
-- Ensure the following packages are installed on your machine:
 
   1. `git`
   2. `make`
@@ -17,15 +18,7 @@
   6. `node`
   7. `groovy`
   8. `lua`
-  9. `groovy`
-  10. `xclip`
-
-- Some others are supposed to be installed automatically using `mason` plugin:
-
-  1. `prettier`
-  2. `black`
-  3. `flake8`
-  4. `stylua`
+  9. `xclip`
 
 For validating health of the installation run inside neovim:
 
@@ -35,30 +28,11 @@ For validating health of the installation run inside neovim:
 
 ## First run
 
-Before initializing neovim open the bootstrap configuration and save.
+Go into Lazy menu and validate all the installations and all updates are done.
 
-```shell
-cd $HOME/.config/nvim/lua/bootstrap.lua
-```
+Validate Mason plugins by typing `:Mason` and if required install extra plugins through `:MasonInstall {{lsp/linter/formatter}}`
 
-It will trigger the download of configured missing language packs - PT and DE.
-
-After it will trigger the download and installation of all the plugins used.
-It might fail at first for some packages, saving again should fix it.
-If it does not do the next step and save after it is successful.
-
-It should also trigger installation of the Language Server Protocols (LSP),
-linters and formatters.
-
-In case of some failure type inside neovim and validate outcome:
-
-```shell
-:Mason
-:MasonInstall {{lsp/linter/formatter}}
-```
-
-More formatters can be found via `null-ls` plugin, some might not be available
-via `mason`, these need to be installed manually.
+More formatters can be found via `null-ls` plugin, some might not be available via `mason`, those need to be installed manually.
 
 - <https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/formatting>
 
@@ -78,3 +52,4 @@ AFAIK can happen that file is not downloaded because of wrong url event if trigg
 This configuration is heavily inspired by
 
 - <https://github.com/LunarVim/nvim-basic-ide>
+- <https://github.com/LazyVim/LazyVim/tree/main>

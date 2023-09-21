@@ -20,3 +20,18 @@ opt.softtabstop = 4
 opt.tabstop = 4
 opt.termguicolors = true -- enable 24 bit colors
 opt.wrap = false -- Disable line wrap
+
+-- LanguageFeatures
+opt.spell = true
+opt.spelllang = { "en", "pt_pt", "de_de" }
+
+-- to fix error: Cannot find word list.
+-- run `nvim -u NORC`
+-- :set spell
+-- :set spelllang=de
+-- :set spelllang=pt_pt
+-- It will prompt for the download of the lang files
+
+-- if it cannot download, then manually we can add the files.
+-- cd ~/.config/nvim/spell
+-- wget http://ftp.vim.org/vim/runtime/spell/pt.utf-8.spl

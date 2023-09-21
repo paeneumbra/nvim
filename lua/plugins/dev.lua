@@ -31,11 +31,43 @@ return {
         opts = {
             ensure_installed = {
                 "flake8",
+                "helm-ls",
+                "groovy-language-server",
+                "gradle-language-server",
+                "kotlin-language-server",
+                "markdownlint",
                 "pyright",
                 "shellcheck",
                 "shfmt",
                 "stylua",
                 "yaml-language-server",
+            },
+        },
+    },
+
+    {
+        "jose-elias-alvarez/null-ls.nvim",
+        opts = function(_, opts)
+            if type(opts.sources) == "table" then
+                local null_ls = require "null-ls"
+                vim.list_extend(opts.sources, {
+                    null_ls.builtins.formatting.markdownlint,
+                    null_ls.builtins.diagnostics.markdownlint,
+                })
+            end
+        end,
+    },
+
+    {
+        "neovim/nvim-lspconfig",
+        opts = {
+            servers = {
+                dockerls = {},
+                docker_compose_language_service = {},
+                gradle_ls = {},
+                groovyls = {},
+                kotlin_language_server = {},
+                helm_ls = {},
             },
         },
     },
