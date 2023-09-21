@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.0.1](https://github.com/simao-ferreira/nvim/compare/v2.0.0...v2.0.1) (2023-09-21)
+
+
+### Changed
+
+* **infra:** Plugin update ([214e703](https://github.com/simao-ferreira/nvim/commit/214e703d5cfa0a4ebe1f815a1b60ceead3e7d442))
+* **nvim:** Make hidden files visible in neo tree file explorer ([00749a7](https://github.com/simao-ferreira/nvim/commit/00749a72d92d71e1c87a99d4ba596547a9fb0eed))
+* **nvim:** Refactor lsp, language options and update plugin versions ([457a0df](https://github.com/simao-ferreira/nvim/commit/457a0df45e4805278bd5ba85939e75e26f1b0af7))
+
 ## [2.0.0](https://github.com/simao-ferreira/nvim/compare/v1.0.0...v2.0.0) (2023-09-19)
 
 
