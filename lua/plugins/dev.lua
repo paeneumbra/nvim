@@ -13,6 +13,7 @@ return {
             ensure_installed = {
                 "bash",
                 "json",
+                "kotlin",
                 "lua",
                 "markdown",
                 "markdown_inline",
@@ -49,10 +50,10 @@ return {
         "nvimtools/none-ls.nvim",
         opts = function(_, opts)
             if type(opts.sources) == "table" then
-                local null_ls = require "null-ls"
+                local nls = require "null-ls"
                 vim.list_extend(opts.sources, {
-                    null_ls.builtins.formatting.markdownlint,
-                    null_ls.builtins.diagnostics.markdownlint,
+                    nls.builtins.formatting.markdownlint,
+                    nls.builtins.diagnostics.markdownlint,
                 })
             end
         end,
