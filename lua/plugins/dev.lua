@@ -36,6 +36,8 @@ return {
                 "groovy-language-server",
                 "gradle-language-server",
                 "kotlin-language-server",
+                "kotlin-debug-adapter",
+                "ktlint",
                 "markdownlint",
                 "pyright",
                 "shellcheck",
@@ -52,8 +54,12 @@ return {
             if type(opts.sources) == "table" then
                 local nls = require "null-ls"
                 vim.list_extend(opts.sources, {
-                    nls.builtins.formatting.markdownlint,
+                    -- markdown
                     nls.builtins.diagnostics.markdownlint,
+                    nls.builtins.formatting.markdownlint,
+                    -- kotlin
+                    nls.builtins.diagnostics.ktlint,
+                    nls.builtins.formatting.ktlint,
                 })
             end
         end,
@@ -63,12 +69,13 @@ return {
         "neovim/nvim-lspconfig",
         opts = {
             servers = {
-                dockerls = {},
-                docker_compose_language_service = {},
                 gradle_ls = {},
                 groovyls = {},
                 kotlin_language_server = {},
                 helm_ls = {},
+            },
+            format = {
+                timeout_ms = 5000,
             },
         },
     },
