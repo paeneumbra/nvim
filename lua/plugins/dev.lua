@@ -31,7 +31,6 @@ return {
         "williamboman/mason.nvim",
         opts = {
             ensure_installed = {
-                "flake8",
                 "helm-ls",
                 "groovy-language-server",
                 "gradle-language-server",
@@ -40,6 +39,9 @@ return {
                 "ktlint",
                 "markdownlint",
                 "pyright",
+                "black",
+                "ruff",
+                "ruff-lsp",
                 "shellcheck",
                 "shfmt",
                 "stylua",
@@ -60,6 +62,9 @@ return {
                     -- kotlin
                     nls.builtins.diagnostics.ktlint,
                     nls.builtins.formatting.ktlint,
+                    -- python
+                    nls.builtins.diagnostics.ruff,
+                    nls.builtins.formatting.black,
                 })
             end
         end,
