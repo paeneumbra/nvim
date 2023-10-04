@@ -28,13 +28,14 @@ For validating health of the installation run inside neovim:
 
 ## First run
 
-Go into Lazy menu and validate all the installations and all updates are done.
+Go into lazy menu `:Lazy` and validate all the installations and all updates are done.
 
 Validate Mason plugins by typing `:Mason` and if required install extra plugins through `:MasonInstall {{lsp/linter/formatter}}`
 
-More formatters can be found via `null-ls` plugin, some might not be available via `mason`, those need to be installed manually.
+More formatters can be found via `none-ls` (previously `null-ls`) plugin, some might not be available via `mason`, those need to be installed manually.
 
-- <https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/formatting>
+- <https://github.com/nvimtools/none-ls.nvim/tree/main/lua/null-ls/builtins/formatting>
+- <https://github.com/nvimtools/none-ls.nvim/tree/main/lua/null-ls/builtins/diagnostics>
 
 ## Issues
 
