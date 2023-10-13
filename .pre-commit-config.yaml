@@ -11,17 +11,17 @@ repos:
     hooks:
       - id: check-yaml
       - id: end-of-file-fixer
+        exclude: ^lazy-lock.json
       - id: trailing-whitespace
       - id: check-case-conflict
       - id: detect-private-key
-      - id: end-of-file-fixer
 
   - repo: https://github.com/compilerla/conventional-pre-commit
     rev: v2.4.0
     hooks:
       - id: conventional-pre-commit
-        stages: [ commit-msg ]
-        args: [ fix, feat, chore, feat!, chore!, fix! ]
+        stages: [commit-msg]
+        args: [fix, feat, chore, feat!, chore!, fix!]
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.37.0
