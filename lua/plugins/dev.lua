@@ -37,7 +37,6 @@ return {
                 "kotlin-debug-adapter",
                 "ktlint",
                 "markdownlint",
-                "ruff",
                 "shellcheck",
                 "shfmt",
                 "stylua",
@@ -58,9 +57,6 @@ return {
                     -- kotlin
                     nls.builtins.diagnostics.ktlint,
                     nls.builtins.formatting.ktlint,
-                    -- python
-                    -- nls.builtins.diagnostics.ruff,
-                    -- nls.builtins.formatting.black,
                 })
             end
         end,
