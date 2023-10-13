@@ -11,7 +11,11 @@ repos:
     hooks:
       - id: check-yaml
       - id: end-of-file-fixer
-        exclude: ^lazy-lock.json
+        exclude: |
+          (?x)^(
+            lazy-lock.json|
+            lazyvim.json
+          )$
       - id: trailing-whitespace
       - id: check-case-conflict
       - id: detect-private-key

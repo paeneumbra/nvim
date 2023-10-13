@@ -17,7 +17,6 @@ return {
                 "lua",
                 "markdown",
                 "markdown_inline",
-                "python",
                 "query",
                 "regex",
                 "vim",
@@ -38,10 +37,7 @@ return {
                 "kotlin-debug-adapter",
                 "ktlint",
                 "markdownlint",
-                "pyright",
-                "black",
                 "ruff",
-                "ruff-lsp",
                 "shellcheck",
                 "shfmt",
                 "stylua",
@@ -63,8 +59,8 @@ return {
                     nls.builtins.diagnostics.ktlint,
                     nls.builtins.formatting.ktlint,
                     -- python
-                    nls.builtins.diagnostics.ruff,
-                    nls.builtins.formatting.black,
+                    -- nls.builtins.diagnostics.ruff,
+                    -- nls.builtins.formatting.black,
                 })
             end
         end,
@@ -83,14 +79,6 @@ return {
                 timeout_ms = 5000,
             },
         },
-    },
-
-    -- add symbols-outline
-    {
-        "simrat39/symbols-outline.nvim",
-        cmd = "SymbolsOutline",
-        keys = { { "<leader>cs", "<cmd>SymbolsOutline<cr>", desc = "Symbols Outline" } },
-        config = true,
     },
 
     -- override nvim-cmp and add cmp-emoji
