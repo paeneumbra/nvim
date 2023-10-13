@@ -15,8 +15,6 @@ return {
                 "json",
                 "kotlin",
                 "lua",
-                "markdown",
-                "markdown_inline",
                 "query",
                 "regex",
                 "vim",
@@ -36,7 +34,6 @@ return {
                 "kotlin-language-server",
                 "kotlin-debug-adapter",
                 "ktlint",
-                "markdownlint",
                 "shellcheck",
                 "shfmt",
                 "stylua",
@@ -51,9 +48,6 @@ return {
             if type(opts.sources) == "table" then
                 local nls = require "null-ls"
                 vim.list_extend(opts.sources, {
-                    -- markdown
-                    nls.builtins.diagnostics.markdownlint,
-                    nls.builtins.formatting.markdownlint,
                     -- kotlin
                     nls.builtins.diagnostics.ktlint,
                     nls.builtins.formatting.ktlint,
