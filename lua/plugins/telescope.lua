@@ -4,6 +4,7 @@
 -- * add extra plugins
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
+
 return {
     -- add telescope-fzf-native
     {
