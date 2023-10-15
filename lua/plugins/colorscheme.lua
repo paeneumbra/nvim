@@ -7,7 +7,6 @@
 return {
     -- add gruvbox
     { "ellisonleao/gruvbox.nvim" },
-    { "stevedylandev/flexoki-nvim", name = "flexoki" },
     { "simao-ferreira/thescream.nvim" },
 
     -- Configure LazyVim to load gruvbox

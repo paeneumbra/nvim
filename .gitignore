@@ -39,8 +39,9 @@ luac.out
 *.x86_64
 *.hex
 
-plugin/packer_compiled.lua
-plugin/
+# IDE
+.idea/
+.vscode/
 
-spell/
-.idea
+# Lazyvim
+lazy-lock.json
