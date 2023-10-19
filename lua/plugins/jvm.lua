@@ -54,33 +54,20 @@ return {
                 vim.list_extend(opts.sources, {
                     -- kotlin
                     nls.builtins.diagnostics.ktlint,
-                    nls.builtins.formatting.ktlint,
                 })
             end
         end,
     },
 
-    -- {
-    --     "stevearc/conform.nvim",
-    --     opts = {
-    --         formatters_by_ft = {
-    --             kotlin = { "ktlint" },
-    --         },
-    --         format = {
-    --             timeout_ms = 5000,
-    --         },
-    --     },
-    -- },
-    --
-    -- {
-    --     "mfussenegger/nvim-lint",
-    --     opts = {
-    --         linters_by_ft = {
-    --             kotlin = { "ktlint" },
-    --         },
-    --         format = {
-    --             timeout_ms = 5000,
-    --         },
-    --     },
-    -- },
+    {
+        "stevearc/conform.nvim",
+        opts = {
+            formatters_by_ft = {
+                kotlin = { "ktlint" },
+            },
+            format = {
+                timeout_ms = 5000,
+            },
+        },
+    },
 }

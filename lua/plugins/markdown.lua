@@ -34,30 +34,17 @@ return {
         },
     },
 
-    -- {
-    --     "stevearc/conform.nvim",
-    --     opts = {
-    --         event = { "BufReadPre", "BufNewFile" },
-    --         formatters_by_ft = {
-    --             ["markdown"] = { "markdownlint" },
-    --         },
-    --         format = {
-    --             timeout_ms = 5000,
-    --         },
-    --     },
-    -- },
-    --
-    -- {
-    --     "mfussenegger/nvim-lint",
-    --     opts = {
-    --         linters_by_ft = {
-    --             markdown = { "markdownlint" },
-    --         },
-    --         format = {
-    --             timeout_ms = 5000,
-    --         },
-    --     },
-    -- },
+    {
+        "stevearc/conform.nvim",
+        opts = {
+            formatters_by_ft = {
+                ["markdown"] = { "markdownlint" },
+            },
+            format = {
+                timeout_ms = 5000,
+            },
+        },
+    },
 
     {
         "nvimtools/none-ls.nvim",
@@ -67,7 +54,6 @@ return {
                 vim.list_extend(opts.sources, {
                     -- markdown
                     nls.builtins.diagnostics.markdownlint,
-                    nls.builtins.formatting.markdownlint,
                 })
             end
         end,

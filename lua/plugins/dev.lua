@@ -48,23 +48,18 @@ return {
     },
 
     {
-        "mfussenegger/nvim-lint",
-        opts = {
-            linters_by_ft = {
-                lua = { "luacheck" },
-                sh = { "shellcheck" },
-            },
-        },
+        "nvimtools/none-ls.nvim",
+        opts = function(_, opts)
+            if type(opts.sources) == "table" then
+                local nls = require "null-ls"
+                vim.list_extend(opts.sources, {
+                    nls.builtins.diagnostics.luacheck,
+                    nls.builtins.code_actions.shellcheck,
+                    nls.builtins.diagnostics.shellcheck,
+                })
+            end
+        end,
     },
-
-    -- {
-    --     "stevearc/conform.nvim",
-    --     formatters_by_ft = {
-    --         lua = { "stylua" },
-    --         sh = { "shfmt" },
-    --         python = { "black" },
-    --     },
-    -- },
 
     -- override nvim-cmp and add cmp-emoji
     {
