@@ -41,10 +41,25 @@ return {
         "williamboman/mason.nvim",
         opts = function(_, opts)
             vim.list_extend(opts.ensure_installed, {
-                "shellcheck",
+                "fixjson",
                 "luacheck",
+                "shellcheck",
+                "yamlfmt",
             })
         end,
+    },
+
+    {
+        "stevearc/conform.nvim",
+        opts = {
+            formatters_by_ft = {
+                json = { "fixjson" },
+                yaml = { "yamlfmt" },
+            },
+            format = {
+                timeout_ms = 5000,
+            },
+        },
     },
 
     {
@@ -61,7 +76,6 @@ return {
         end,
     },
 
-    -- override nvim-cmp and add cmp-emoji
     {
         "hrsh7th/nvim-cmp",
         dependencies = { "hrsh7th/cmp-emoji" },
@@ -70,5 +84,23 @@ return {
             local cmp = require "cmp"
             opts.sources = cmp.config.sources(vim.list_extend(opts.sources, { { name = "emoji" } }))
         end,
+    },
+
+    {
+        "folke/trouble.nvim",
+        opts = { use_diagnostic_signs = true },
+    },
+
+    {
+        "nvim-neo-tree/neo-tree.nvim",
+        opts = {
+            filesystem = {
+                filtered_items = {
+                    visible = true,
+                    hide_dotfiles = false,
+                    hide_gitignored = false,
+                },
+            },
+        },
     },
 }
