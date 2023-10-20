@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.0.3](https://github.com/simao-ferreira/nvim/compare/v2.0.2...v2.0.3) (2023-10-20)
+
+
+### Changed
+
+* Add lsp keymaps, add luacheckrc global vim to prevent warnings ([91a58a6](https://github.com/simao-ferreira/nvim/commit/91a58a699f38c011a0eb75e921145cef1416b185))
+* Add my own colorscheme, update plugins ([e416806](https://github.com/simao-ferreira/nvim/commit/e41680644c978cd9e7843f7883c5155c610f3241))
+* Add treesitter extra configuration ([451aa17](https://github.com/simao-ferreira/nvim/commit/451aa17dc3643862f19010d8e007058852990e66))
+* Adjust plugin config to use conform for formatting and nonels for linting and diagnostics ([9685848](https://github.com/simao-ferreira/nvim/commit/968584852b90c91fc948677afd0fc593d5bce5c7))
+* **infra:** Regular plugin update ([94c7eeb](https://github.com/simao-ferreira/nvim/commit/94c7eeb905aa81b0466c783a02591e559e73bf4d))
+* **infra:** Update pre commit and nvim plugins ([631ac99](https://github.com/simao-ferreira/nvim/commit/631ac99a9c78691ec8afda3b743059714819b6b0))
+* Refactor colorscheme config ([792c780](https://github.com/simao-ferreira/nvim/commit/792c780b5aa42047447c53a6781cdb6e7cf121b0))
+* Refactor markdown config to a smaller file ([4195be5](https://github.com/simao-ferreira/nvim/commit/4195be556580d3c97316a7dacccf305d1f8a8475))
+* Remove duplicated  pre commit configuration, exclude lazy lock from EOF fixer ([4e893c6](https://github.com/simao-ferreira/nvim/commit/4e893c659e77f67b340bbbf34e45c64929a904c3))
+* Remove lazy lock file to prevent constant conflicts and constant commits for updating versions ([b8d3b2f](https://github.com/simao-ferreira/nvim/commit/b8d3b2f8450a3656f207c5421748459cbc13988f))
+* Remove personal config for python in favor of lazyvim extras ([3b0f6eb](https://github.com/simao-ferreira/nvim/commit/3b0f6eb9b67acbeca9b1969893fd949ca528ffe3))
+* Split and refactor jvm related configuration ([67a14ff](https://github.com/simao-ferreira/nvim/commit/67a14ff035fc58929248dffaaa04c0e1558b49f3))
+* Update lazyvim to v10 ([4ee68fc](https://github.com/simao-ferreira/nvim/commit/4ee68fcf826f1f3cd54515362d30d27efa21699b))
+
 ## [2.0.2](https://github.com/simao-ferreira/nvim/compare/v2.0.1...v2.0.2) (2023-10-04)
 
 
