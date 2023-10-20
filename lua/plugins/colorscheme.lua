@@ -4,19 +4,18 @@
 -- * add extra plugins
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
+
 return {
-    -- add gruvbox
+
     { "ellisonleao/gruvbox.nvim" },
     { "simao-ferreira/thescream.nvim" },
+    { "Shatur/neovim-ayu" },
 
-    -- Configure LazyVim to load gruvbox
+    -- Configure LazyVim to load colorscheme
     {
         "LazyVim/LazyVim",
         opts = {
             colorscheme = "thescream",
-            opts = {
-                transparent_background = true,
-            },
         },
     },
 }
