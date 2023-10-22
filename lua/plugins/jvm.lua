@@ -9,6 +9,7 @@ return {
 
     -- Java configuration is defined in LazyVim
     -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/java.lua
+    { import = "lazyvim.plugins.extras.lang.java" },
 
     {
         "nvim-treesitter/nvim-treesitter",
