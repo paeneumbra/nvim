@@ -18,6 +18,7 @@ return {
                 "graphql",
                 "groovy",
                 "kotlin",
+                "scala",
             })
         end,
     },

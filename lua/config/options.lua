@@ -24,6 +24,22 @@ opt.tabstop = 4
 opt.termguicolors = true -- enable 24 bit colors
 opt.wrap = false -- Disable line wrap
 
+-- Files
+vim.filetype.add {
+    extension = {
+        rasi = "rasi",
+        tfvars = "hcl",
+    },
+    filename = {
+        ["Brewfile"] = "ruby",
+        ["Jenkinsfile"] = "groovy",
+    },
+    pattern = {
+        ["gitconf.*"] = "git_config",
+        [".*.tfstate.backup"] = "json",
+    },
+}
+
 -- LanguageFeatures
 opt.spell = true
 opt.spelllang = { "en", "pt_pt", "de_de" }
