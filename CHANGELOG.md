@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.0.4](https://github.com/simao-ferreira/nvim/compare/v2.0.3...v2.0.4) (2023-10-23)
+
+
+### Changed
+
+* Add configuration to prevent formatting on save ([1c9579b](https://github.com/simao-ferreira/nvim/commit/1c9579b2a787e8b152244d22de676de3d30fadb0))
+* Add formatters for json and yaml ([a447be6](https://github.com/simao-ferreira/nvim/commit/a447be6b2f23de759f367e1e4bf95b6a721bedc1))
+* Recognize jenkinsfile as groovy file, improve treesitter config ([40d0c81](https://github.com/simao-ferreira/nvim/commit/40d0c8161edc5045d43f935dbe989e4f1c10f897))
+* Split python config to own file, split data structures config to own file, add toml formatting ([39ba3f3](https://github.com/simao-ferreira/nvim/commit/39ba3f380af859f7b922e262adaa7a6d3f3e7fc2))
+
 ## [2.0.3](https://github.com/simao-ferreira/nvim/compare/v2.0.2...v2.0.3) (2023-10-20)
 
 
