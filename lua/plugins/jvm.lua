@@ -23,7 +23,6 @@ return {
         end,
     },
 
-    -- Install language servers
     {
         "neovim/nvim-lspconfig",
         opts = {
