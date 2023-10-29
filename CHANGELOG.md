@@ -1,5 +1,15 @@
 # Changelog
 
+## v2.1.0 (2023-10-29)
+
+### Feature
+
+- Migrate to commitizen
+
+### Patch
+
+- Add robot file configuration
+
 ## [2.0.4](https://github.com/simao-ferreira/nvim/compare/v2.0.3...v2.0.4) (2023-10-23)
 
 
