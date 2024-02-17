@@ -36,10 +36,31 @@ return {
             formatters_by_ft = {
                 json = { "fixjson" },
                 yaml = { "yamlfmt" },
+                bash = { "shfmt" },
+                sh = { "shfmt" },
+                zsh = { "shfmt" },
             },
             format = {
                 timeout_ms = 5000,
             },
+        },
+    },
+
+    {
+        "mfussenegger/nvim-lint",
+        opts = {
+            -- https://www.lazyvim.org/plugins/linting
+            -- Event to trigger linters
+            events = { "BufWritePost", "BufReadPost", "InsertLeave" },
+            linters_by_ft = {
+                lua = { "luacheck" },
+                sh = { "shellcheck" },
+                zsh = { "shellcheck" },
+            },
+            -- LazyVim extension to easily override linter options
+            -- or add custom linters.
+            ---@type table<string,table>
+            linters = {},
         },
     },
 
@@ -49,9 +70,7 @@ return {
             if type(opts.sources) == "table" then
                 local nls = require "null-ls"
                 vim.list_extend(opts.sources, {
-                    nls.builtins.diagnostics.luacheck,
                     nls.builtins.code_actions.shellcheck,
-                    nls.builtins.diagnostics.shellcheck,
                 })
             end
         end,

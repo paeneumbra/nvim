@@ -6,24 +6,8 @@
 -- * override the configuration of LazyVim plugins
 return {
 
-    -- add more treesitter parsers
-    {
-        "nvim-treesitter/nvim-treesitter",
-        opts = function(_, opts)
-            vim.list_extend(opts.ensure_installed, {
-                "markdown",
-                "markdown_inline",
-            })
-        end,
-    },
-
-    -- add any tools you want to have installed below
-    {
-        "williamboman/mason.nvim",
-        opts = function(_, opts)
-            vim.list_extend(opts.ensure_installed, { "markdownlint" })
-        end,
-    },
+    --https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/markdown.lua
+    { import = "lazyvim.plugins.extras.lang.markdown" },
 
     {
         "stevearc/conform.nvim",
@@ -35,18 +19,5 @@ return {
                 timeout_ms = 5000,
             },
         },
-    },
-
-    {
-        "nvimtools/none-ls.nvim",
-        opts = function(_, opts)
-            if type(opts.sources) == "table" then
-                local nls = require "null-ls"
-                vim.list_extend(opts.sources, {
-                    -- markdown
-                    nls.builtins.diagnostics.markdownlint,
-                })
-            end
-        end,
     },
 }

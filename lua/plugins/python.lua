@@ -7,11 +7,9 @@
 
 return {
 
-    -- Python configuration is defined in LazyVim
     -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/python.lua
     { import = "lazyvim.plugins.extras.lang.python" },
 
-    -- Black configuration
     -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/formatting/black.lua
     { import = "lazyvim.plugins.extras.formatting.black" },
 

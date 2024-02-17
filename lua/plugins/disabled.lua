@@ -9,7 +9,6 @@ return {
 
     { "catppuccin", enabled = false },
     { "ggandor/flit.nvim", enabled = false },
-    { "echasnovski/mini.indentscope", enabled = false },
     { "windwp/nvim-ts-autotag", enabled = false },
     { "folke/edgy.nvim", enabled = false },
 }
