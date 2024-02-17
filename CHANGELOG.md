@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.1.1 (2024-02-17)
+
+### Patch
+
+- Update pre commit configuration
+- Update markdown and shell configuration, add sql linter and formatter
+
 ## v2.1.0 (2023-10-29)
 
 ### Feature
