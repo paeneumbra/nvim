@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.2 (2024-02-23)
+
+### Patch
+
+- Add glow, remove headers
+
 ## v2.1.1 (2024-02-17)
 
 ### Patch
