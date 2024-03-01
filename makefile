@@ -2,8 +2,8 @@
 
 pre-commit: setup-pre-commit update-pre-commit
 
-setup-pre-commit:
+pre-commit-setup:
 	pre-commit install
 
-update-pre-commit:
+pre-commit-update:
 	pre-commit autoupdate
