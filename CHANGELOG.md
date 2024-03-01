@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.1.3 (2024-03-01)
+
+### Patch
+
+- Update pre commit configuration
+- Remove conflicting none-ls
+
 ## v2.1.2 (2024-02-23)
 
 ### Patch
