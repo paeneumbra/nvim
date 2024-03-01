@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.4 (2024-03-01)
+
+### Patch
+
+- Introduce checkmake validation to pre-commit config
+
 ## v2.1.3 (2024-03-01)
 
 ### Patch
