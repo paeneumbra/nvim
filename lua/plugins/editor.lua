@@ -7,6 +7,11 @@
 
 return {
 
+    { import = "lazyvim.plugins.extras.dap.core" },
+    { import = "lazyvim.plugins.extras.lang.docker" },
+    { import = "lazyvim.plugins.extras.lang.terraform" },
+    { import = "lazyvim.plugins.extras.test.core" },
+
     {
         "nvim-treesitter/nvim-treesitter",
         opts = function(_, opts)
@@ -36,9 +41,9 @@ return {
             formatters_by_ft = {
                 json = { "fixjson" },
                 yaml = { "yamlfmt" },
-                bash = { "shfmt" },
-                sh = { "shfmt" },
-                zsh = { "shfmt" },
+                bash = { "shellcheck", "shfmt" },
+                sh = { "shellcheck", "shfmt" },
+                zsh = { "shellcheck", "shfmt" },
             },
             format = {
                 timeout_ms = 5000,
@@ -54,6 +59,7 @@ return {
             events = { "BufWritePost", "BufReadPost", "InsertLeave" },
             linters_by_ft = {
                 lua = { "luacheck" },
+                bash = { "shellcheck" },
                 sh = { "shellcheck" },
                 zsh = { "shellcheck" },
             },
@@ -62,18 +68,6 @@ return {
             ---@type table<string,table>
             linters = {},
         },
-    },
-
-    {
-        "nvimtools/none-ls.nvim",
-        opts = function(_, opts)
-            if type(opts.sources) == "table" then
-                local nls = require "null-ls"
-                vim.list_extend(opts.sources, {
-                    nls.builtins.code_actions.shellcheck,
-                })
-            end
-        end,
     },
 
     {

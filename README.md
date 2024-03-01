@@ -32,11 +32,6 @@ Go into lazy menu `:Lazy` and validate all the installations and all updates are
 
 Validate Mason plugins by typing `:Mason` and if required install extra plugins through `:MasonInstall {{lsp/linter/formatter}}`
 
-More formatters can be found via `none-ls` (previously `null-ls`) plugin, some might not be available via `mason`, those need to be installed manually.
-
-- <https://github.com/nvimtools/none-ls.nvim/tree/main/lua/null-ls/builtins/formatting>
-- <https://github.com/nvimtools/none-ls.nvim/tree/main/lua/null-ls/builtins/diagnostics>
-
 ## Issues
 
 Error for spell files not found:
