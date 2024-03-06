@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.6 (2024-03-06)
+
+### Patch
+
+- Update and tweak pre commit config
+
 ## v2.1.5 (2024-03-06)
 
 ### Patch
