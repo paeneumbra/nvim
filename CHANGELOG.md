@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.5 (2024-03-06)
+
+### Patch
+
+- Start using editorconfig, remove checkmake
+
 ## v2.1.4 (2024-03-01)
 
 ### Patch
