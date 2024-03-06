@@ -30,7 +30,8 @@ For validating health of the installation run inside neovim:
 
 Go into lazy menu `:Lazy` and validate all the installations and all updates are done.
 
-Validate Mason plugins by typing `:Mason` and if required install extra plugins through `:MasonInstall {{lsp/linter/formatter}}`
+Validate Mason plugins by typing `:Mason` and if required install extra plugins through
+`:MasonInstall {{lsp/linter/formatter}}`
 
 ## Issues
 

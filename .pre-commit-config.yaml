@@ -24,7 +24,7 @@ repos:
     rev: v3.16.0
     hooks:
       - id: commitizen
-        stages: [ commit-msg ]
+        stages: [commit-msg]
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.39.0
@@ -34,14 +34,19 @@ repos:
           - --config
           - .markdownlint.yaml
           - --fix
+        exclude: '^(CHANGELOG.md)$'
+
+  - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
+    rev: '2.7.3'
+    hooks:
+      - id: editorconfig-checker
+        exclude: |
+          (?x)^(
+              CHANGELOG.md |
+              lazyvim.json
+          )$
 
   - repo: https://github.com/JohnnyMorganz/StyLua
     rev: v0.20.0
     hooks:
       - id: stylua-system
-
-  - repo: https://github.com/mrtazz/checkmake
-    rev: 0.2.2
-    hooks:
-      - id: checkmake
-        args: [ --config=./.checkmake-config.ini ]
