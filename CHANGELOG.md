@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.7 (2024-03-08)
+
+### Patch
+
+- Reconfig for the newest update, remove conflicting configs
+
 ## v2.1.6 (2024-03-06)
 
 ### Patch
