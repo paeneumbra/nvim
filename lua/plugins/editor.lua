@@ -6,7 +6,13 @@
 -- * override the configuration of LazyVim plugins
 
 return {
-
+    -- ThePrimeagen/harpoon quick track and move to files - <leader>H to add, <leader>h to open
+    { import = "lazyvim.plugins.extras.editor.harpoon2" },
+    -- LSP outline functions window - <leader>cs to trigger
+    { import = "lazyvim.plugins.extras.editor.outline" },
+    -- LSP navigation for lualine
+    { import = "lazyvim.plugins.extras.editor.navic" },
+    --  Debug Adaptor
     { import = "lazyvim.plugins.extras.dap.core" },
     { import = "lazyvim.plugins.extras.lang.docker" },
     { import = "lazyvim.plugins.extras.lang.terraform" },

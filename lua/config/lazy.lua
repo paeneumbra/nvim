@@ -16,8 +16,6 @@ require("lazy").setup {
     spec = {
         -- add LazyVim and import its plugins
         { "LazyVim/LazyVim", import = "lazyvim.plugins" },
-        { import = "lazyvim.plugins.extras.editor.aerial" },
-        { import = "lazyvim.plugins.extras.editor.symbols-outline" },
         { import = "plugins" },
     },
     defaults = {
