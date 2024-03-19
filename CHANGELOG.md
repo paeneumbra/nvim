@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.8 (2024-03-19)
+
+### Patch
+
+- Remove empty line
+
 ## v2.1.7 (2024-03-08)
 
 ### Patch
