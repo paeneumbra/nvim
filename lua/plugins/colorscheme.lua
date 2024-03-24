@@ -8,7 +8,7 @@
 return {
 
     { "ellisonleao/gruvbox.nvim" },
-    { "simao-ferreira/thescream.nvim" },
+    { "itzalak/thescream.nvim" },
     { "Shatur/neovim-ayu" },
 
     -- Configure LazyVim to load colorscheme
