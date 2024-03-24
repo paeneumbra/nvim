@@ -19,6 +19,7 @@ This repository overrides LazyVim default configurations.
   7. `groovy`
   8. `lua`
   9. `xclip`
+  10. `(macos) gnu-sed`
 
 For validating health of the installation run inside neovim:
 
