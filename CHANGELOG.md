@@ -1,5 +1,16 @@
 # Changelog
 
+## v2.1.9 (2024-03-24)
+
+### Fix
+
+- Update colorscheme
+- Remove commit links from changelog
+
+### Patch
+
+- Add sed to list of requirements, needed for spectre
+
 ## v2.1.8 (2024-03-19)
 
 ### Patch
