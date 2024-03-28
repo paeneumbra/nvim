@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.10 (2024-03-28)
+
+### Patch
+
+- Update lazyvim to 10.20, add helm extra
+
 ## v2.1.9 (2024-03-24)
 
 ### Fix
