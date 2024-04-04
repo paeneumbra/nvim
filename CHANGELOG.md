@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.11 (2024-04-04)
+
+### Patch
+
+- Force telescope to search hidden files
+
 ## v2.1.10 (2024-03-28)
 
 ### Patch
