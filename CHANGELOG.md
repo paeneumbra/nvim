@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.12 (2024-05-25)
+
+### Patch
+
+- Update to latest lazyvim, use extras for kotlin markdown and toml, remove unused color schemes
+
 ## v2.1.11 (2024-04-04)
 
 ### Patch
