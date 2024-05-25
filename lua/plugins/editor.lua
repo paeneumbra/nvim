@@ -21,6 +21,8 @@ return {
     { import = "lazyvim.plugins.extras.test.core" },
     -- Pretty diagnostics
     { import = "lazyvim.plugins.extras.editor.trouble-v3" },
+    -- Better yank (copy paste)
+    { import = "lazyvim.plugins.extras.coding.yanky" },
 
     {
         "nvim-treesitter/nvim-treesitter",
