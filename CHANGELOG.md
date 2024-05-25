@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.1.13 (2024-05-25)
+
+### Tools
+
+- Introduce checkmate, update pre commit hooks version
+- Introduce checkmate, update pre commit hooks version
+- Update makefile and cz config
+
 ## v2.1.12 (2024-05-25)
 
 ### Patch
