@@ -12,12 +12,15 @@ return {
     { import = "lazyvim.plugins.extras.editor.outline" },
     -- LSP navigation for lualine
     { import = "lazyvim.plugins.extras.editor.navic" },
-    --  Debug Adaptor
+    -- Debug Adaptor
     { import = "lazyvim.plugins.extras.dap.core" },
+
     { import = "lazyvim.plugins.extras.lang.helm" },
     { import = "lazyvim.plugins.extras.lang.docker" },
     { import = "lazyvim.plugins.extras.lang.terraform" },
     { import = "lazyvim.plugins.extras.test.core" },
+    -- Pretty diagnostics
+    { import = "lazyvim.plugins.extras.editor.trouble-v3" },
 
     {
         "nvim-treesitter/nvim-treesitter",
@@ -34,10 +37,8 @@ return {
         "williamboman/mason.nvim",
         opts = function(_, opts)
             vim.list_extend(opts.ensure_installed, {
-                "fixjson",
                 "luacheck",
                 "shellcheck",
-                "yamlfmt",
             })
         end,
     },
@@ -46,8 +47,6 @@ return {
         "stevearc/conform.nvim",
         opts = {
             formatters_by_ft = {
-                json = { "fixjson" },
-                yaml = { "yamlfmt" },
                 bash = { "shellcheck", "shfmt" },
                 sh = { "shellcheck", "shfmt" },
                 zsh = { "shellcheck", "shfmt" },
@@ -85,11 +84,6 @@ return {
             local cmp = require "cmp"
             opts.sources = cmp.config.sources(vim.list_extend(opts.sources, { { name = "emoji" } }))
         end,
-    },
-
-    {
-        "folke/trouble.nvim",
-        opts = { use_diagnostic_signs = true },
     },
 
     {

@@ -7,9 +7,13 @@
 
 return {
 
-    -- Java configuration is defined in LazyVim
+    -- Configuration as defined in LazyVim
     -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/java.lua
     { import = "lazyvim.plugins.extras.lang.java" },
+    -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/kotlin.lua
+    { import = "lazyvim.plugins.extras.lang.kotlin" },
+    -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/scala.lua
+    { import = "lazyvim.plugins.extras.lang.scala" },
 
     {
         "nvim-treesitter/nvim-treesitter",
@@ -17,8 +21,6 @@ return {
             vim.list_extend(opts.ensure_installed, {
                 "graphql",
                 "groovy",
-                "kotlin",
-                "scala",
             })
         end,
     },
@@ -30,28 +32,6 @@ return {
                 gradle_ls = {},
                 graphql = {},
                 groovyls = {},
-                kotlin_language_server = {},
-            },
-            format = {
-                timeout_ms = 5000,
-            },
-        },
-    },
-
-    {
-        "williamboman/mason.nvim",
-        opts = function(_, opts)
-            vim.list_extend(opts.ensure_installed, {
-                "ktlint",
-            })
-        end,
-    },
-
-    {
-        "stevearc/conform.nvim",
-        opts = {
-            formatters_by_ft = {
-                kotlin = { "ktlint" },
             },
             format = {
                 timeout_ms = 5000,
