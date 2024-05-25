@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.1.14 (2024-05-25)
+
+### Changed
+
+- Tryout yanky
+
+### Tools
+
+- Introduce checkmate, update pre commit hooks version
+- Update makefile and cz config
+- Introduce checkmate, update pre commit hooks version
+
 ## v2.1.13 (2024-05-25)
 
 ### Tools
