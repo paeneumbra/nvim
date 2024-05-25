@@ -40,7 +40,11 @@ repos:
     rev: '2.7.3'
     hooks:
       - id: editorconfig-checker
-        exclude: '^(CHANGELOG.md)$'
+        exclude: |
+          (?x)^(
+            CHANGELOG.md|
+            lazyvim.json
+          )$
 
   - repo: https://github.com/JohnnyMorganz/StyLua
     rev: v0.20.0
