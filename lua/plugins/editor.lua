@@ -19,8 +19,6 @@ return {
     { import = "lazyvim.plugins.extras.lang.docker" },
     { import = "lazyvim.plugins.extras.lang.terraform" },
     { import = "lazyvim.plugins.extras.test.core" },
-    -- Pretty diagnostics
-    { import = "lazyvim.plugins.extras.editor.trouble-v3" },
     -- Better yank (copy paste)
     { import = "lazyvim.plugins.extras.coding.yanky" },
 
