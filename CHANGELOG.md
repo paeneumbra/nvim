@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.15 (2024-05-30)
+
+### Changed
+
+- Trouble v3 is now default remove extra config
+
 ## v2.1.14 (2024-05-25)
 
 ### Changed
