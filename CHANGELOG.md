@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.16 (2024-06-14)
+
+### Changed
+
+- Add rename extra config
+
 ## v2.1.15 (2024-05-30)
 
 ### Changed
