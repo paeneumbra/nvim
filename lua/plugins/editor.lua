@@ -21,6 +21,8 @@ return {
     { import = "lazyvim.plugins.extras.test.core" },
     -- Better yank (copy paste)
     { import = "lazyvim.plugins.extras.coding.yanky" },
+    -- Better rename
+    { import = "lazyvim.plugins.extras.editor.inc-rename" },
 
     {
         "nvim-treesitter/nvim-treesitter",
