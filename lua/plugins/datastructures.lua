@@ -31,7 +31,7 @@ return {
                 json = { "fixjson" },
                 yaml = { "yamlfmt" },
             },
-            format = {
+            default_format_opts = {
                 timeout_ms = 5000,
             },
         },

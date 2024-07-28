@@ -53,7 +53,7 @@ return {
                 sh = { "shellcheck", "shfmt" },
                 zsh = { "shellcheck", "shfmt" },
             },
-            format = {
+            default_format_opts = {
                 timeout_ms = 5000,
             },
         },
