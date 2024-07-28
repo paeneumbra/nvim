@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.18 (2024-07-28)
+
+### Changed
+
+- Update conform configuration
+
 ## v2.1.17 (2024-07-28)
 
 ### Tools
