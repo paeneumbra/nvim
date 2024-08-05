@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.19 (2024-08-05)
+
+### Changed
+
+- makefile cleanup
+
 ## v2.1.18 (2024-07-28)
 
 ### Changed
