@@ -20,7 +20,6 @@ endef
 .DEFAULT_GOAL := help
 ROOT_DIR := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 OS := $(shell uname -s)
-DISTRO := $(XDG_CURRENT_DESKTOP)
 
 ###############################################################################
 # Default
