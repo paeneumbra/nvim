@@ -27,6 +27,14 @@ return {
     {
         "stevearc/conform.nvim",
         opts = {
+            formatters = {
+                yamlfmt = {
+                    prepend_args = {
+                        "-formatter",
+                        "retain_line_breaks=true",
+                    },
+                },
+            },
             formatters_by_ft = {
                 json = { "fixjson" },
                 yaml = { "yamlfmt" },
