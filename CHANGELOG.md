@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.22 (2024-10-23)
+
+### Changed
+
+- Taskfile correction
+
 ## v2.1.21 (2024-10-23)
 
 ### Changed
