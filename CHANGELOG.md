@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.20 (2024-10-23)
+
+### Changed
+
+- Update yamlfmt configuration
+
 ## v2.1.19 (2024-08-05)
 
 ### Changed
