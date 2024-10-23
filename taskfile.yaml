@@ -1,0 +1,49 @@
+version: '3'
+
+includes:
+
+tasks:
+
+  default:
+    internal: true
+    desc: Default
+    cmds:
+      - |
+        echo "Home dir: {{.HOME}}"
+        echo "Root dir: {{.ROOT_DIR}}"
+        echo "Working dir: {{.USER_WORKING_DIR}}"
+        echo "OS: {{OS}}"
+        task --list
+    silent: true
+
+  assert:
+    cmds:
+      - for:
+          var: REQUIRED_TOOLS
+          split: ','
+          as: TOOL
+        cmd: |
+          [ -n "$(which {{ .TOOL }})" ] || ( \
+            echo "ERROR: `{{ .TOOL }}` not found" && exit 1; \
+          )
+    silent: true
+    internal: true
+
+  setup:
+    deps: [assert]
+    desc: Initialize pre-commit
+    cmds:
+      - pre-commit install
+
+  update:
+    deps: [assert]
+    desc: Update pre-commit hooks
+    cmds:
+      - pre-commit autoupdate
+
+  run:
+    deps: [assert]
+    desc: Run pre-commit for all files
+    internal: true
+    cmds:
+      - pre-commit run --color always --all-files
