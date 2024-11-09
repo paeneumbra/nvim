@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.23 (2024-11-09)
+
+### Changed
+
+- Update lazyvim version
+
 ## v2.1.22 (2024-10-23)
 
 ### Changed
