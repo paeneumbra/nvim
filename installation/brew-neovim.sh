@@ -16,7 +16,9 @@ PKGS=(
   nvim
   npm
   stow
+  lua
   luarocks
+  stylua
 )
 
 print_info "Installing neovim and required packages"
