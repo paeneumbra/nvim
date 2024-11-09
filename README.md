@@ -10,21 +10,37 @@ This repository overrides LazyVim default configurations.
 
 - Ensure version of installed neovim is at least `0.8.0`
 
-  1. `git`
-  2. `make`
-  3. `pip`
-  4. `python`
-  5. `npm`
-  6. `node`
-  7. `groovy`
-  8. `lua`
-  9. `xclip`
-  10. `(macos) gnu-sed`
+    1. `git`
+    2. `python`
+    3. `npm`
+    4. `lua`
+    5. `xclip`
+    6. `(macos) gnu-sed`
 
-For validating health of the installation run inside neovim:
+## Install
+
+Clone the repository
 
 ```shell
-:checkhealth
+git clone git@github.com:itzalak/nvim.git
+```
+
+Install minimal packages
+
+```shell
+cd nvim
+```
+
+Installing minimal packages for linux
+
+```shell
+./installation/pacman-nvim.sh
+```
+
+Symlink the configuration
+
+```shell
+stow --verbose --target=$HOME nvim
 ```
 
 ## First run
@@ -33,6 +49,14 @@ Go into lazy menu `:Lazy` and validate all the installations and all updates are
 
 Validate Mason plugins by typing `:Mason` and if required install extra plugins through
 `:MasonInstall {{lsp/linter/formatter}}`
+
+## Healthcheck
+
+For validating health of the installation run inside neovim:
+
+```shell
+:checkhealth
+```
 
 ## Issues
 

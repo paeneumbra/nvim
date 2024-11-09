@@ -4,6 +4,7 @@ includes:
 
 tasks:
 
+
   default:
     desc: Default
     cmds:
@@ -27,6 +28,8 @@ tasks:
           )
     silent: true
     internal: true
+    vars:
+      REQUIRED_TOOLS: pre-commit, nvim
 
   setup:
     deps: [assert]
@@ -43,6 +46,5 @@ tasks:
   run:
     deps: [assert]
     desc: Run pre-commit for all files
-    internal: true
     cmds:
       - pre-commit run --color always --all-files
