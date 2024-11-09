@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.0.0 (2024-11-09)
+
+### Breaking Change
+
+- Decouple from anvil dotfiles
+
 ## v2.1.23 (2024-11-09)
 
 ### Changed
