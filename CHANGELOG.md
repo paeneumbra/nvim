@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.0.1 (2024-11-09)
+
+### Tools
+
+- add lua to nvim script installation
+
 ## v3.0.0 (2024-11-09)
 
 ### Breaking Change
