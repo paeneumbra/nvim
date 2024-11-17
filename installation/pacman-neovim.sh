@@ -20,6 +20,7 @@ PKGS=(
   lua
   luarocks
   stylua
+  xclip
 )
 
 print_info "Installing neovim and required packages"
