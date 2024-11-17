@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.0.2 (2024-11-17)
+
+### Changed
+
+- Update lazyvim, add xclip to installation
+
 ## v3.0.1 (2024-11-09)
 
 ### Tools
