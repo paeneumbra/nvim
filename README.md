@@ -69,6 +69,9 @@ nvim -u NORC -c 'set spelllang=de_de spell'
 
 AFAIK can happen that file is not downloaded because of wrong url event if triggered.
 
+Groovyls cannot install via MasonInstall. Groovy is not installed by the minimal installation script because I tend to install it through sdkman.
+Installing groovy should fix the issue.
+
 ## Aknowledgments
 
 This configuration is heavily inspired by
