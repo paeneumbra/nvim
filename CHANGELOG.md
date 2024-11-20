@@ -1,5 +1,15 @@
 # Changelog
 
+## v3.0.3 (2024-11-20)
+
+### Changed
+
+- add extras for dotfiles, remove robot
+
+### Notes
+
+- Update readme on groovyls warning
+
 ## v3.0.2 (2024-11-17)
 
 ### Changed
