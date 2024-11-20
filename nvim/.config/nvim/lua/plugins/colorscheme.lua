@@ -7,15 +7,11 @@
 
 return {
 
-    -- { "ellisonleao/gruvbox.nvim" },
-    -- { "Shatur/neovim-ayu" },
     { "itzalak/thescream.nvim" },
 
-    -- Configure LazyVim to load colorscheme
     {
         "LazyVim/LazyVim",
         opts = {
-            -- colorscheme = "gruvbox",
             colorscheme = "thescream",
         },
     },

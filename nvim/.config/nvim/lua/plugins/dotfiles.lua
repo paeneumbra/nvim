@@ -4,11 +4,7 @@
 -- * add extra plugins
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
-
 return {
-
-    { "catppuccin", enabled = false },
-    { "ggandor/flit.nvim", enabled = false },
-    { "windwp/nvim-ts-autotag", enabled = false },
-    { "Bilal2453/luvit-meta", enabled = false },
+    { import = "lazyvim.plugins.extras.util.dot" },
+    { import = "lazyvim.plugins.extras.editor.fzf"}
 }
