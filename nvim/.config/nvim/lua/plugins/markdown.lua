@@ -10,9 +10,24 @@ return {
     { import = "lazyvim.plugins.extras.lang.markdown" },
 
     {
-        -- https://github.com/ellisonleao/glow.nvim
-        "ellisonleao/glow.nvim",
-        opts = { border = "rounded", width = 120 },
-        cmd = "Glow",
+        "stevearc/conform.nvim",
+        opts = {
+            formatters_by_ft = {
+                ["markdown"] = { "markdownlint" },
+            },
+            default_format_opts = {
+                timeout_ms = 5000,
+            },
+        },
+    },
+
+    {
+        "mfussenegger/nvim-lint",
+        optional = true,
+        opts = {
+            linters_by_ft = {
+                markdown = { "markdownlint" },
+            },
+        },
     },
 }

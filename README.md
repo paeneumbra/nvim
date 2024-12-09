@@ -10,12 +10,12 @@ This repository overrides LazyVim default configurations.
 
 - Ensure version of installed neovim is at least `0.8.0`
 
-    1. `git`
-    2. `python`
-    3. `npm`
-    4. `lua`
-    5. `xclip`
-    6. `(macos) gnu-sed`
+    1. git
+    2. python
+    3. npm
+    4. lua
+    5. xclip
+    6. (macos) gnu-sed
 
 ## Install
 

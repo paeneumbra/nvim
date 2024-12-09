@@ -33,7 +33,7 @@ return {
                 graphql = {},
                 groovyls = {},
             },
-            format = {
+            default_format_opts = {
                 timeout_ms = 5000,
             },
         },
