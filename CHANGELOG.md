@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.0.4 (2024-12-09)
+
+### Changed
+
+- split editor, update config
+
 ## v3.0.3 (2024-11-20)
 
 ### Changed
