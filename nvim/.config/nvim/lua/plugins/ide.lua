@@ -6,7 +6,6 @@
 -- * override the configuration of LazyVim plugins
 
 return {
-    -- Debug Adaptor
     { import = "lazyvim.plugins.extras.dap.core" },
     { import = "lazyvim.plugins.extras.lang.helm" },
     { import = "lazyvim.plugins.extras.lang.docker" },
@@ -40,8 +39,6 @@ return {
     {
         "mfussenegger/nvim-lint",
         opts = {
-            -- https://www.lazyvim.org/plugins/linting
-            -- Event to trigger linters
             events = { "BufWritePost", "BufReadPost", "InsertLeave" },
             linters_by_ft = {
                 lua = { "luacheck" },
@@ -49,9 +46,6 @@ return {
                 sh = { "shellcheck" },
                 zsh = { "shellcheck" },
             },
-            -- LazyVim extension to easily override linter options
-            -- or add custom linters.
-            ---@type table<string,table>
             linters = {},
         },
     },

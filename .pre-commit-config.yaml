@@ -21,15 +21,15 @@ repos:
       - id: detect-private-key
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v3.30.0
+    rev: v4.1.0
     hooks:
       - id: commitizen
         stages: [commit-msg]
 
-  - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.42.0
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.16.0
     hooks:
-      - id: markdownlint
+      - id: markdownlint-cli2
         args:
           - --config
           - .markdownlint.yaml
@@ -47,7 +47,7 @@ repos:
           )$
 
   - repo: https://github.com/JohnnyMorganz/StyLua
-    rev: v0.20.0
+    rev: v2.0.2
     hooks:
       - id: stylua-system
 

@@ -13,11 +13,12 @@ function print_info() {
 }
 
 PKGS=(
-  nvim
-  npm
-  stow
   lua
   luarocks
+  markdownlint-cli2
+  npm
+  nvim
+  stow
   stylua
 )
 

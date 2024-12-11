@@ -47,8 +47,8 @@ stow --verbose --target=$HOME nvim
 
 Go into lazy menu `:Lazy` and validate all the installations and all updates are done.
 
-Validate Mason plugins by typing `:Mason` and if required install extra plugins through
-`:MasonInstall {{lsp/linter/formatter}}`
+Validate Mason plugins by typing `:Mason`. Lazyvim should install all required plugins.
+If required install extra plugins through `:MasonInstall {{lsp/linter/formatter}}`
 
 ## Healthcheck
 
@@ -76,5 +76,5 @@ Installing groovy should fix the issue.
 
 This configuration is heavily inspired by
 
-- <https://github.com/LunarVim/nvim-basic-ide>
-- <https://github.com/LazyVim/LazyVim/tree/main>
+- <https://github.com/LunarVim/Launch.nvim>
+- <https://github.com/LazyVim/LazyVim>

@@ -13,12 +13,13 @@ function print_info() {
 }
 
 PKGS=(
-  neovim
-  python-pynvim
-  npm
-  stow
   lua
   luarocks
+  markdownlint-cli2
+  neovim
+  npm
+  python-pynvim
+  stow
   stylua
   xclip
 )

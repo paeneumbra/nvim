@@ -6,13 +6,30 @@
 -- * override the configuration of LazyVim plugins
 
 return {
+    --
+    -- { "itzalak/thescream.nvim" },
+    --
+    -- {
+    --     "LazyVim/LazyVim",
+    --     opts = {
+    --         colorscheme = "thescream",
+    --     },
+    -- },
 
-    { "itzalak/thescream.nvim" },
+    { dir = "/Users/simaof/foundry/laubwald.nvim" },
 
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "thescream",
+            colorscheme = "laubwald",
         },
+    },
+
+    {
+        "nvim-lualine/lualine.nvim",
+        opts = function(_, opts)
+            local theme = require "lualine.themes.laubwald"
+            opts.options.theme = theme
+        end,
     },
 }

@@ -6,8 +6,6 @@
 -- * override the configuration of LazyVim plugins
 
 return {
-    -- track and move to files - <leader>H to add, <leader>h to open
-    { import = "lazyvim.plugins.extras.editor.harpoon2" },
     -- LSP outline functions window - <leader>cs to trigger
     { import = "lazyvim.plugins.extras.editor.outline" },
     -- LSP navigation for lualine
