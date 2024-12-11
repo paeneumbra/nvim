@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.0 (2024-12-11)
+
+### Changed
+
+- rever the messy structure
+
 ## v3.0.5 (2024-12-11)
 
 ### Changed
