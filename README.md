@@ -25,12 +25,6 @@ Clone the repository
 git clone git@github.com:itzalak/nvim.git
 ```
 
-Install minimal packages
-
-```shell
-cd nvim
-```
-
 Installing minimal packages for linux
 
 ```shell
@@ -40,7 +34,7 @@ Installing minimal packages for linux
 Symlink the configuration
 
 ```shell
-stow --verbose --target=$HOME nvim
+stow --verbose --target=$HOME/.config nvim
 ```
 
 ## First run
