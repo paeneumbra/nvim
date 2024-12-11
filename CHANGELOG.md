@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.0.5 (2024-12-11)
+
+### Changed
+
+- remove harpoon, fix markdown installation, use markdownlint-cli2
+
 ## v3.0.4 (2024-12-09)
 
 ### Changed
