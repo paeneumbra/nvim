@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.1 (2024-12-14)
+
+### Changed
+
+- lazyvim version update, clean color schemes config file
+
 ## v3.1.0 (2024-12-11)
 
 ### Changed
