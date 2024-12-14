@@ -6,22 +6,15 @@
 -- * override the configuration of LazyVim plugins
 
 return {
-    --
-    -- { "itzalak/thescream.nvim" },
-    --
-    -- {
-    --     "LazyVim/LazyVim",
-    --     opts = {
-    --         colorscheme = "thescream",
-    --     },
-    -- },
-
-    { dir = "/Users/simaof/foundry/laubwald.nvim" },
+    { "itzalak/thescream.nvim" },
+    -- { "itzalak/laubwald.nvim"},
+    { dir = os.getenv "HOME" .. "/foundry/laubwald.nvim" },
 
     {
         "LazyVim/LazyVim",
         opts = {
             colorscheme = "laubwald",
+            -- colorscheme = "thescream",
         },
     },
 
