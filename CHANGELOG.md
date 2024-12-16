@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.1.2 (2024-12-16)
+
+### Changed
+
+- Cleanup disabled plugins
+- Update plugins in the wake of lazyvim 14
+
 ## v3.1.1 (2024-12-14)
 
 ### Changed
