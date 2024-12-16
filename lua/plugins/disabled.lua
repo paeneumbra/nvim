@@ -9,7 +9,4 @@ return {
 
     { "catppuccin", enabled = false },
     { "tokyonight", enabled = false },
-    { "ggandor/flit.nvim", enabled = false },
-    { "windwp/nvim-ts-autotag", enabled = false },
-    { "Bilal2453/luvit-meta", enabled = false },
 }
