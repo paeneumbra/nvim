@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.3 (2024-12-22)
+
+### Changed
+
+- adjust clipboard notes and installation
+
 ## v3.1.2 (2024-12-16)
 
 ### Changed
