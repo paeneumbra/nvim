@@ -7,13 +7,13 @@
 
 return {
     { "itzalak/thescream.nvim" },
-    -- { "itzalak/laubwald.nvim"},
-    { dir = os.getenv "HOME" .. "/foundry/laubwald.nvim" },
+    { "itzalak/laubwald.nvim"},
+    -- { dir = os.getenv "HOME" .. "/foundry/laubwald.nvim" },
 
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "laubwald",
+            colorscheme = "laubwald-night",
             -- colorscheme = "thescream",
         },
     },
