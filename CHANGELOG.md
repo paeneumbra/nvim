@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.6 (2024-12-27)
+
+### Changed
+
+- remove mardownlint installation, it is managed by mason
+
 ## v3.1.5 (2024-12-27)
 
 ### Changed
