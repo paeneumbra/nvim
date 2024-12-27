@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.4 (2024-12-27)
+
+### Changed
+
+- Tweak markdown, does not seem to be working
+
 ## v3.1.3 (2024-12-22)
 
 ### Changed
