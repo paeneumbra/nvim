@@ -15,7 +15,6 @@ function print_info() {
 PKGS=(
   lua
   luarocks
-  markdownlint-cli2
   npm
   nvim
   stow
