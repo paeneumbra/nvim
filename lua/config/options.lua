@@ -45,13 +45,12 @@ vim.g.lazyvim_python_lsp = "pyright"
 
 -- LanguageFeatures
 opt.spell = true
-opt.spelllang = { "en", "pt_pt", "de_de" }
+opt.spelllang = { "en", "de_de" }
 
 -- to fix error: Cannot find word list.
 -- run `nvim -u NORC`
 -- :set spell
 -- :set spelllang=de
--- :set spelllang=pt_pt
 -- It will prompt for the download of the lang files
 
 -- if it cannot download, then manually we can add the files.

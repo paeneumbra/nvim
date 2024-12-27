@@ -7,14 +7,8 @@
 
 return {
 
-    {
-        "williamboman/mason.nvim",
-        opts = function(_, opts)
-            vim.list_extend(opts.ensure_installed, {
-                "sqlfluff",
-            })
-        end,
-    },
+    -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/sql.lua
+    { import = "lazyvim.plugins.extras.lang.sql" },
 
     {
         "stevearc/conform.nvim",
@@ -36,18 +30,6 @@ return {
                         "--nocolor",
                         "-",
                     },
-                },
-            },
-        },
-
-        {
-            "mfussenegger/nvim-lint",
-            opts = {
-                -- https://www.lazyvim.org/plugins/linting
-                -- Event to trigger linters
-                events = { "BufWritePost", "BufReadPost", "InsertLeave" },
-                linters_by_ft = {
-                    sql = { "sqlfluff" },
                 },
             },
         },

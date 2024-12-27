@@ -12,8 +12,6 @@ return {
     { import = "lazyvim.plugins.extras.lang.java" },
     -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/kotlin.lua
     { import = "lazyvim.plugins.extras.lang.kotlin" },
-    -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/scala.lua
-    { import = "lazyvim.plugins.extras.lang.scala" },
 
     {
         "nvim-treesitter/nvim-treesitter",
