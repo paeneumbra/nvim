@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.5 (2024-12-27)
+
+### Changed
+
+- Fix mardown, remove scala, update sql, clean options
+
 ## v3.1.4 (2024-12-27)
 
 ### Changed
