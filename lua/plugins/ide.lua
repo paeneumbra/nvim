@@ -18,6 +18,7 @@ return {
             vim.list_extend(opts.ensure_installed, {
                 "luacheck",
                 "shellcheck",
+                "prettier",
             })
         end,
     },
@@ -29,6 +30,10 @@ return {
                 bash = { "shellcheck", "shfmt" },
                 sh = { "shellcheck", "shfmt" },
                 zsh = { "shellcheck", "shfmt" },
+                css = { "prettier" },
+                scss = { "prettier" },
+                html = { "prettier" },
+                javascript = { "prettier" },
             },
             default_format_opts = {
                 timeout_ms = 5000,
