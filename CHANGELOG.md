@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.7 (2024-12-30)
+
+### Changed
+
+- add prettier to format css
+
 ## v3.1.6 (2024-12-27)
 
 ### Changed
