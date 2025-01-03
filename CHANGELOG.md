@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.8 (2025-01-03)
+
+### Changed
+
+- colorscheme was renamed
+
 ## v3.1.7 (2024-12-30)
 
 ### Changed
