@@ -7,13 +7,13 @@
 
 return {
     { "itzalak/thescream.nvim" },
-    { "itzalak/laubwald.nvim"},
-    -- { dir = os.getenv "HOME" .. "/foundry/laubwald.nvim" },
+    { "itzalak/basoa.nvim"},
+    -- { dir = os.getenv "HOME" .. "/foundry/depository/basoa.nvim" },
 
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "laubwald-night",
+            colorscheme = "basoa-summer",
             -- colorscheme = "thescream",
         },
     },
@@ -21,7 +21,7 @@ return {
     {
         "nvim-lualine/lualine.nvim",
         opts = function(_, opts)
-            local theme = require "lualine.themes.laubwald"
+            local theme = require "lualine.themes.basoa"
             opts.options.theme = theme
         end,
     },
