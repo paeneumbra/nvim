@@ -8,7 +8,6 @@
 return {
 
     -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/sql.lua
-    { import = "lazyvim.plugins.extras.lang.sql" },
 
     {
         "stevearc/conform.nvim",

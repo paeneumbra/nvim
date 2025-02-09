@@ -8,5 +8,4 @@
 return {
 
     { "catppuccin", enabled = false },
-    { "tokyonight", enabled = false },
 }

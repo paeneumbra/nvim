@@ -7,7 +7,7 @@
 return {
 
     --https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/markdown.lua
-    { import = "lazyvim.plugins.extras.lang.markdown" },
+
     {
         "stevearc/conform.nvim",
         opts = {

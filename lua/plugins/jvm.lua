@@ -7,11 +7,8 @@
 
 return {
 
-    -- Configuration as defined in LazyVim
     -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/java.lua
-    { import = "lazyvim.plugins.extras.lang.java" },
     -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/kotlin.lua
-    { import = "lazyvim.plugins.extras.lang.kotlin" },
 
     {
         "nvim-treesitter/nvim-treesitter",

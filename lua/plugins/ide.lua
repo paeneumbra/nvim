@@ -6,11 +6,15 @@
 -- * override the configuration of LazyVim plugins
 
 return {
-    { import = "lazyvim.plugins.extras.dap.core" },
-    { import = "lazyvim.plugins.extras.lang.helm" },
-    { import = "lazyvim.plugins.extras.lang.docker" },
-    { import = "lazyvim.plugins.extras.lang.terraform" },
-    { import = "lazyvim.plugins.extras.test.core" },
+
+    {
+        "hrsh7th/nvim-cmp",
+        dependencies = { "hrsh7th/cmp-emoji" },
+        opts = function(_, opts)
+            local cmp = require "cmp"
+            opts.sources = cmp.config.sources(vim.list_extend(opts.sources, { { name = "emoji" } }))
+        end,
+    },
 
     {
         "williamboman/mason.nvim",

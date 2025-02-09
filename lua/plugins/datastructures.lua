@@ -8,11 +8,8 @@
 return {
 
     -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/json.lua
-    { import = "lazyvim.plugins.extras.lang.json" },
     -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/yaml.lua
-    { import = "lazyvim.plugins.extras.lang.yaml" },
     -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/lang/toml.lua
-    { import = "lazyvim.plugins.extras.lang.toml" },
 
     {
         "williamboman/mason.nvim",
