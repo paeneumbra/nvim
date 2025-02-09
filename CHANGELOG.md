@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.10 (2025-02-09)
+
+### Changed
+
+- Restructure extras after last update
+
 ## v3.1.9 (2025-02-09)
 
 ### Changed
