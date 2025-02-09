@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.9 (2025-02-09)
+
+### Changed
+
+- update lazyvim
+
 ## v3.1.8 (2025-01-03)
 
 ### Changed
