@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.11 (2025-02-09)
+
+### Changed
+
+- Try tokyonight moon
+
 ## v3.1.10 (2025-02-09)
 
 ### Changed
