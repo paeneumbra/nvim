@@ -57,7 +57,6 @@ For validating health of the installation run inside neovim:
 Error for spell files not found:
 
 ```shell
-nvim -u NORC -c 'set spelllang=pt_pt spell'
 nvim -u NORC -c 'set spelllang=de_de spell'
 ```
 
