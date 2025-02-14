@@ -23,16 +23,16 @@ return {
         "catppuccin/nvim",
         name = "catppuccin",
         opts = {
-            flavour = "macchiato",
+            flavour = "frappe",
         },
     },
 
     {
         "LazyVim/LazyVim",
         opts = {
-            -- colorscheme = "tokyonight",
+            colorscheme = "tokyonight",
             -- colorscheme = "basoa-summer",
-            colorscheme = "catppuccin",
+            -- colorscheme = "catppuccin",
         },
     },
 
