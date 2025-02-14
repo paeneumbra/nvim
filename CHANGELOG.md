@@ -1,5 +1,15 @@
 # Changelog
 
+## v3.1.12 (2025-02-14)
+
+### Changed
+
+- tryout catppuccin
+
+### Notes
+
+- update readme
+
 ## v3.1.11 (2025-02-09)
 
 ### Changed
