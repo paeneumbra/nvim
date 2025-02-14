@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.13 (2025-02-14)
+
+### Changed
+
+- back to tokyonight
+
 ## v3.1.12 (2025-02-14)
 
 ### Changed
