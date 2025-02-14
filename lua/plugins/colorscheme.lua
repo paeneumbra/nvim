@@ -10,6 +10,7 @@ return {
     -- { dir = os.getenv "HOME" .. "/path/to/repository.nvim" },
     { "itzalak/thescream.nvim" },
     { "itzalak/basoa.nvim" },
+
     {
         "folke/tokyonight.nvim",
         lazy = true,
@@ -19,11 +20,19 @@ return {
     },
 
     {
+        "catppuccin/nvim",
+        name = "catppuccin",
+        opts = {
+            flavour = "macchiato",
+        },
+    },
+
+    {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "tokyonight",
+            -- colorscheme = "tokyonight",
             -- colorscheme = "basoa-summer",
-            -- colorscheme = "thescream",
+            colorscheme = "catppuccin",
         },
     },
 
