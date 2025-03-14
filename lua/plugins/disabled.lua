@@ -7,4 +7,5 @@
 
 return {
 
+    { "catppuccin", enabled = false },
 }

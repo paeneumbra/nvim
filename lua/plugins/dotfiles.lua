@@ -7,7 +7,6 @@
 return {
 
     -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/util/dot.lua
-    -- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/extras/editor/fzf.lua
     {
         "nvim-treesitter/nvim-treesitter",
         opts = function(_, opts)
