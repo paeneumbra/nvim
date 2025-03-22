@@ -8,14 +8,12 @@ This repository overrides LazyVim default configurations.
 
 ## Requirements
 
-- Ensure version of installed neovim is at least `0.8.0`
-
-    1. git
-    2. python
-    3. npm
-    4. lua
-    5. xclip(x11), pbcopy(macos) or  wl-copy(wayland)
-    6. (macos) gnu-sed
+- git
+- python
+- npm
+- lua
+- xclip(x11), pbcopy(macos) or  wl-copy(wayland)
+- (macos) gnu-sed
 
 ## Install
 
@@ -42,7 +40,6 @@ stow --verbose --target=$HOME/.config nvim
 Go into lazy menu `:Lazy` and validate all the installations and all updates are done.
 
 Validate Mason plugins by typing `:Mason`. Lazyvim should install all required plugins.
-If required install extra plugins through `:MasonInstall {{lsp/linter/formatter}}`
 
 ## Healthcheck
 
@@ -65,7 +62,7 @@ AFAIK can happen that file is not downloaded because of wrong url event if trigg
 Groovyls cannot install via MasonInstall. Groovy is not installed by the minimal installation script because I tend to install it through sdkman.
 Installing groovy should fix the issue.
 
-## Aknowledgments
+## Acknowledgments
 
 This configuration is heavily inspired by
 
