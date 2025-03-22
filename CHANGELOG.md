@@ -1,5 +1,15 @@
 # Changelog
 
+## v3.1.15 (2025-03-22)
+
+### Changed
+
+- update pre commit version
+
+### Notes
+
+- update readme
+
 ## v3.1.14 (2025-03-14)
 
 ### Changed
