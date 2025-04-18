@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.16 (2025-04-18)
+
+### Tools
+
+- update pre commit and lua config
+
 ## v3.1.15 (2025-03-22)
 
 ### Changed
