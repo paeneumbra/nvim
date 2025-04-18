@@ -21,7 +21,7 @@ repos:
       - id: detect-private-key
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.4.1
+    rev: v4.6.0
     hooks:
       - id: commitizen
         stages: [commit-msg]
@@ -37,7 +37,7 @@ repos:
         exclude: '^(CHANGELOG.md)$'
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: '3.2.0'
+    rev: '3.2.1'
     hooks:
       - id: editorconfig-checker
         exclude: |
@@ -57,7 +57,7 @@ repos:
       - id: checkmake
 
   - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.36.2
+    rev: v1.37.0
     hooks:
       - id: yamllint
         args: ['--no-warnings']
