@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.17 (2025-04-19)
+
+### Changed
+
+- drop black in favor of ruff
+
 ## v3.1.16 (2025-04-18)
 
 ### Tools
