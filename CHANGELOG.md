@@ -1,5 +1,19 @@
 # Changelog
 
+## v3.1.18 (2025-05-02)
+
+### Changed
+
+- add guess indent and nvim spider
+- add newer lazyvim plugins
+- remove lazyvim defaults
+- tryout blink
+- consolidate editor config in one file
+
+### Tools
+
+- bump pre commit plugins
+
 ## v3.1.17 (2025-04-19)
 
 ### Changed
