@@ -24,7 +24,12 @@ require("lazy").setup {
         { import = "lazyvim.plugins.extras.dap.core" },
         { import = "lazyvim.plugins.extras.editor.fzf" },
         { import = "lazyvim.plugins.extras.editor.inc-rename" },
+        { import = "lazyvim.plugins.extras.editor.illuminate" },
+        { import = "lazyvim.plugins.extras.editor.mini-move" },
         { import = "lazyvim.plugins.extras.editor.outline" },
+        { import = "lazyvim.plugins.extras.editor.refactoring" },
+        { import = "lazyvim.plugins.extras.editor.snacks_explorer" },
+        { import = "lazyvim.plugins.extras.editor.snacks_picker" },
         { import = "lazyvim.plugins.extras.lang.docker" },
         { import = "lazyvim.plugins.extras.lang.helm" },
         { import = "lazyvim.plugins.extras.lang.java" },
@@ -61,7 +66,9 @@ require("lazy").setup {
             -- disable some rtp plugins
             disabled_plugins = {
                 "gzip",
-                "netrwPlugin",
+                -- "matchit",
+                -- "matchparen",
+                -- "netrwPlugin",
                 "tohtml",
                 "tutor",
             },
