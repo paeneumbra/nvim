@@ -6,10 +6,6 @@
 -- * override the configuration of LazyVim plugins
 
 return {
-
-    -- { dir = os.getenv "HOME" .. "/path/to/repository.nvim" },
-    { "itzalak/basoa.nvim" },
-
     {
         "folke/tokyonight.nvim",
         lazy = true,
@@ -22,10 +18,22 @@ return {
         "LazyVim/LazyVim",
         opts = {
             colorscheme = "tokyonight",
-            -- colorscheme = "basoa-summer",
         },
     },
 
+    -- Configuration for local colorscheme
+    -- { dir = os.getenv "HOME" .. "/path/to/repository.nvim" },
+    --
+    -- Configuration for basoa
+    -- { "itzalak/basoa.nvim" },
+    --
+    -- {
+    --     "LazyVim/LazyVim",
+    --     opts = {
+    --         colorscheme = "basoa-summer",
+    --     },
+    -- },
+    --
     -- {
     --     "nvim-lualine/lualine.nvim",
     --     opts = function(_, opts)

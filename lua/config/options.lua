@@ -14,7 +14,7 @@ opt.fileencoding = "utf-8"
 opt.ignorecase = true
 opt.incsearch = true
 opt.number = true -- numbered lines
--- opt.relativenumber = true -- displays current line number
+opt.relativenumber = true -- displays current line number
 opt.scrolloff = 6 -- minimum lines around cursor when scrolling
 opt.shiftwidth = 4
 opt.smartcase = true
@@ -41,9 +41,9 @@ vim.filetype.add {
 }
 
 vim.g.lazyvim_picker = "fzf"
-vim.g.lazyvim_python_lsp = "pyright"
+vim.g.lazyvim_python_ruff = "ruff"
 
--- LanguageFeatures
+-- Language Features
 opt.spell = true
 opt.spelllang = { "en", "de_de" }
 
