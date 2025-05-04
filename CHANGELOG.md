@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.19 (2025-05-04)
+
+### Changed
+
+- add extension config for snacks picker
+
 ## v3.1.18 (2025-05-02)
 
 ### Changed
