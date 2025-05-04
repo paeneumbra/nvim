@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.20 (2025-05-04)
+
+### Changed
+
+- extend fzf configuration for hidden files
+
 ## v3.1.19 (2025-05-04)
 
 ### Changed
