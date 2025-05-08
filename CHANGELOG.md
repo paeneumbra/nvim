@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.21 (2025-05-08)
+
+### Changed
+
+- add typescript extra
+
 ## v3.1.20 (2025-05-04)
 
 ### Changed
