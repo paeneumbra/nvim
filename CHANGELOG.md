@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.22 (2025-05-10)
+
+### Fixed
+
+- temporary mason workaround
+
 ## v3.1.21 (2025-05-08)
 
 ### Changed
