@@ -21,13 +21,13 @@ repos:
       - id: detect-private-key
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.6.0
+    rev: v4.7.2
     hooks:
       - id: commitizen
         stages: [commit-msg]
 
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.17.2
+    rev: v0.18.1
     hooks:
       - id: markdownlint-cli2
         args:
@@ -57,7 +57,7 @@ repos:
       - id: checkmake
 
   - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.37.0
+    rev: v1.37.1
     hooks:
       - id: yamllint
         args: ['--no-warnings']
