@@ -1,5 +1,15 @@
 # Changelog
 
+## v3.1.23 (2025-05-21)
+
+### Changed
+
+- remove mason workaround
+
+### Tools
+
+- bump pre commit plugins
+
 ## v3.1.22 (2025-05-10)
 
 ### Fixed
