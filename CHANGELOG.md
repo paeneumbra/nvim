@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.2.0 (2025-05-25)
+
+### Changed
+
+- Introduce experimental aider configuration
+
 ## v3.1.23 (2025-05-21)
 
 ### Changed
