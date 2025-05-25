@@ -45,3 +45,4 @@ luac.out
 
 # Lazyvim
 lazy-lock.json
+.aider*
