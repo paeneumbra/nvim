@@ -50,15 +50,17 @@ return {
                 bash = { "shellcheck", "shfmt" },
                 sh = { "shellcheck", "shfmt" },
                 zsh = { "shellcheck", "shfmt" },
-                css = { "prettier" },
-                scss = { "prettier" },
+                css = { "biome" },
+                scss = { "biome" },
                 html = { "prettier" },
-                javascript = { "prettier" },
+                javascript = { "biome" },
+                typescript = { "biome" },
                 json = { "fixjson" },
                 yaml = { "yamlfmt" },
                 markdown = { "markdownlint-cli2" },
                 ["markdown.mdx"] = { "markdownlint-cli2" },
                 sql = { "sqlfluff" },
+                graphql = { "biome" },
             },
             default_format_opts = {
                 timeout_ms = 5000,
@@ -84,7 +86,6 @@ return {
         "nvim-treesitter/nvim-treesitter",
         opts = function(_, opts)
             vim.list_extend(opts.ensure_installed, {
-                "graphql",
                 "groovy",
             })
         end,
@@ -95,7 +96,6 @@ return {
         opts = {
             servers = {
                 gradle_ls = {},
-                graphql = {},
                 groovyls = {},
             },
             default_format_opts = {
