@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.2.1 (2025-06-10)
+
+### Changed
+
+- try smear cursor
+- introduce neogen - comment tools
+- introduce biome formatter
+
 ## v3.2.0 (2025-05-25)
 
 ### Changed
