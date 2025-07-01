@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.2.2 (2025-07-01)
+
+### Changed
+
+- update repositories
+
 ## v3.2.1 (2025-06-10)
 
 ### Changed
