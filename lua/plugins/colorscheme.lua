@@ -25,7 +25,7 @@ return {
     -- { dir = os.getenv "HOME" .. "/path/to/repository.nvim" },
     --
     -- Configuration for basoa
-    -- { "itzalak/basoa.nvim" },
+    -- { "paeneumbra/basoa.nvim" },
     --
     -- {
     --     "LazyVim/LazyVim",

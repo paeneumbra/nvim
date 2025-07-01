@@ -20,7 +20,7 @@ This repository overrides LazyVim default configurations.
 Clone the repository
 
 ```shell
-git clone git@github.com:itzalak/nvim.git
+git clone git@github.com:paeneumbra/nvim.git
 ```
 
 Installing minimal packages for linux
