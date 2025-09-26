@@ -6,6 +6,5 @@
 -- * override the configuration of LazyVim plugins
 
 return {
-
     { "catppuccin", enabled = false },
 }
