@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.2.5 (2025-09-26)
+
+### Changed
+
+- Update lazyvim to v15, use snacks instead of fzf
+
 ## v3.2.4 (2025-07-04)
 
 ### Changed
