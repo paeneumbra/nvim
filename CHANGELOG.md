@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.2.6 (2025-10-15)
+
+### Changed
+
+- bump precommit plugins
+
 ## v3.2.5 (2025-09-26)
 
 ### Changed
