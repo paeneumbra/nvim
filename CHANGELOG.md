@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.2.8 (2025-11-21)
+
+### Changed
+
+- make snacks respect ignore files
+
 ## v3.2.7 (2025-11-21)
 
 ### Changed
