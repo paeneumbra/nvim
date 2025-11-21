@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.2.7 (2025-11-21)
+
+### Changed
+
+- correct snacks config, add go
+
 ## v3.2.6 (2025-10-15)
 
 ### Changed
