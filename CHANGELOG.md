@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.2.9 (2025-11-26)
+
+### Changed
+
+- remove hidden files from picker
+
 ## v3.2.8 (2025-11-21)
 
 ### Changed
