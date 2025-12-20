@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.2.10 (2025-12-20)
+
+### Changed
+
+- bump pre commit plugins
+- add ty lsp
+
 ## v3.2.9 (2025-11-26)
 
 ### Changed
