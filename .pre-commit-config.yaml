@@ -21,7 +21,7 @@ repos:
       - id: detect-private-key
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.10.0
+    rev: v4.11.0
     hooks:
       - id: commitizen
         stages: [commit-msg]
@@ -50,11 +50,6 @@ repos:
     rev: v2.3.1
     hooks:
       - id: stylua-system
-
-  - repo: https://github.com/mrtazz/checkmake
-    rev: 0.2.2
-    hooks:
-      - id: checkmake
 
   - repo: https://github.com/adrienverge/yamllint.git
     rev: v1.37.1
