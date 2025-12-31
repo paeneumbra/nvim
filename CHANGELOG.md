@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.2.11 (2025-12-31)
+
+### Changed
+
+- bump precommit plugins
+
 ## v3.2.10 (2025-12-20)
 
 ### Changed
