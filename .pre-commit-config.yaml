@@ -21,7 +21,7 @@ repos:
       - id: detect-private-key
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.11.0
+    rev: v4.13.7
     hooks:
       - id: commitizen
         stages: [commit-msg]
@@ -52,7 +52,7 @@ repos:
       - id: stylua-system
 
   - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.37.1
+    rev: v1.38.0
     hooks:
       - id: yamllint
         args: ['--no-warnings']

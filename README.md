@@ -12,7 +12,7 @@ This repository overrides LazyVim default configurations.
 - python
 - npm
 - lua
-- xclip(x11), pbcopy(macos) or  wl-copy(wayland)
+- xclip(x11), pbcopy(macos) or wl-copy(wayland)
 - (macos) gnu-sed
 
 ## Install
