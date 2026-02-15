@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.2.12 (2026-02-15)
+
+### Tools
+
+- bump pre commit
+
 ## v3.2.11 (2025-12-31)
 
 ### Changed
