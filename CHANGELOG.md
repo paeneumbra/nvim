@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.2.14 (2026-04-05)
+
+### 🧹 Chore
+
+- **extras**: adopt extras configuration
+
 ## v3.2.13 (2026-04-05)
 
 ### 🧹 Chore
