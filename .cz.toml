@@ -6,11 +6,23 @@ version = "3.2.12"
 update_changelog_on_bump = true
 
 [tool.commitizen.customize]
-schema = "<type>: <body>"
-schema_pattern = "(bump|break|feat|chore|tools|docs|fix):(\\s.*)"
-bump_pattern = "^(bump|break|feat|tools|fix|chore)"
-bump_map = { "break" = "MAJOR", "feat" = "MINOR", "fix" = "PATCH", "tools" = "PATCH", "chore" = "PATCH", "docs" = "PATCH" }
-change_type_order = ["break", "feat", "fix", "tools", "chore", "docs"]
-commit_parser = "^(?P<change_type>break|feat|chore|tools|docs|fix):\\s(?P<message>.*)?"
-changelog_pattern = "^(break|feat|chore|tools|docs|fix)?(!)?"
-change_type_map = { "break" = "Breaking Change", "feat" = "Changed", "fix" = "Fixed", "tools" = "Tools", "chore" = "Changed", "docs" = "Notes" }
+schema = "<type>[(scope)]: <message>"
+schema_pattern = "^(break|feat|fix|docs|chore)(\\([^()\\r\\n]+\\))?(!)?:\\s.*"
+bump_pattern = "^(break|feat|fix|chore)"
+bump_map = { "break" = "MAJOR", "feat" = "MINOR", "fix" = "PATCH", "chore" = "PATCH" }
+commit_parser = "^(?P<change_type>feat|fix|break|docs|chore)(?:\\((?P<scope>[^()\\r\\n]*)\\))?(?P<breaking>!)?:\\s(?P<message>.*)?"
+changelog_pattern = "^(break|feat|fix|chore|docs)"
+change_type_order = [
+  "⚠️ Breaking Change",
+  "🚀 New Feature",
+  "🧹 Chore",
+  "🐛 Fix",
+  "📚 Documentation",
+]
+
+[tool.commitizen.customize.change_type_map]
+break = "⚠️ Breaking Change"
+feat = "🚀 New Feature"
+chore = "🧹 Chore"
+fix = "🐛 Fix"
+docs = "📚 Documentation"
