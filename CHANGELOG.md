@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.2.13 (2026-04-05)
+
+### 🧹 Chore
+
+- **neovim**: update biome config
+- **precommit**: plugin version update
+- **commitizen**: update commit message patterns
+
 ## v3.2.12 (2026-02-15)
 
 ### Tools
