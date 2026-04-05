@@ -29,22 +29,24 @@ tasks:
     silent: true
     internal: true
     vars:
-      REQUIRED_TOOLS: pre-commit, nvim
+      REQUIRED_TOOLS: prek, nvim
 
   setup:
     deps: [assert]
-    desc: Initialize pre-commit
+    desc: Initialize prek
     cmds:
-      - pre-commit install
+      - prek install
 
   update:
     deps: [assert]
-    desc: Update pre-commit hooks
+    desc: Update prek hooks
     cmds:
-      - pre-commit autoupdate
+      - prek auto-update
+      - prek cache gc
+      - prek validate-config
 
   run:
     deps: [assert]
-    desc: Run pre-commit for all files
+    desc: Run prek for all files
     cmds:
-      - pre-commit run --color always --all-files
+      - prek run --color always --all-files

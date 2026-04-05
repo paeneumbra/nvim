@@ -6,8 +6,7 @@ default_stages:
   - pre-commit
 
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v6.0.0
+  - repo: builtin
     hooks:
       - id: check-yaml
       - id: end-of-file-fixer
@@ -35,16 +34,6 @@ repos:
           - .markdownlint.yaml
           - --fix
         exclude: '^(CHANGELOG.md)$'
-
-  - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: '3.6.1'
-    hooks:
-      - id: editorconfig-checker
-        exclude: |
-          (?x)^(
-            CHANGELOG.md|
-            lazyvim.json
-          )$
 
   - repo: https://github.com/JohnnyMorganz/StyLua
     rev: v2.4.0
