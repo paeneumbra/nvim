@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.2.15 (2026-04-05)
+
+### 🧹 Chore
+
+- **prek**: replace precommit with prek
+
 ## v3.2.14 (2026-04-05)
 
 ### 🧹 Chore
