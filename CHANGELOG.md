@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.2.16 (2026-04-09)
+
+### 🧹 Chore
+
+- **extras**: correct missing extras
+
 ## v3.2.15 (2026-04-05)
 
 ### 🧹 Chore
